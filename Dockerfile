@@ -2,7 +2,8 @@ FROM python:3.7-slim
 
 RUN apt-get update && apt-get install -y iproute2 && rm -rf /var/lib/apt/lists/*
 
-ENV PYTHONUNBUFFERED=1
+
+ENV PYTHONUNBUFFERED=1
 ENV LOCAL_PATH="/vol1/1000/disk1/Media"
 ENV STRM_PREFIX="/vol1/1000/netdisk/cd2/CloudDrive"
 ENV EMBY_URL="http://127.0.0.1:8096"
