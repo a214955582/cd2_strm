@@ -1,0 +1,2 @@
+# cd2_strm
+clouddrive2与本地路径映射的strm同步，顺带通知emby服务器刷新媒体库
